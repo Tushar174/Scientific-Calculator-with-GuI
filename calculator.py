@@ -176,6 +176,7 @@ def arccos_clicked():
         disp.insert(0, str(ans))
     except Exception:
         tkinter.messagebox.showerror("Value Error", "Check your values and operators")
+        print("Scientific calculator")
 
 
 def arctan_clicked():
