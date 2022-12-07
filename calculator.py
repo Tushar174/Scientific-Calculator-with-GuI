@@ -189,7 +189,7 @@ def arctan_clicked():
         disp.delete(0, END)
         disp.insert(0, str(ans))
     except Exception:
-        tkinter.messagebox.showerror("Value Error", "Check your values and operators")
+        tkinter.messagebox.showerror("Value Error", "Check your value and operators")
 
 
 def pow_clicked():
@@ -204,7 +204,7 @@ def round_clicked():
         disp.delete(0, END)
         disp.insert(0, str(ans))
     except Exception:
-        tkinter.messagebox.showerror("Value Error", "Check your values and operators")
+        tkinter.messagebox.showerror("Value Error", "Check your value and operators")
 
 
 def logarithm_clicked():
